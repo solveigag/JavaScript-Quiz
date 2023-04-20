@@ -16,9 +16,10 @@
                 <p class="subtitle">Daily Quiz to test your knowledge</p>
             </div>
             <div class="result hide">
-                <p>You scored 5/5</p>
+                <p></p>
                 <p class="reload">
-                    <button>Try Again</button>
+                    <button onClick="document.location.reload(true);">Try Again</button> 
+                    <!-- Reloads the page (can also use--- window.location.reload()  ---)-->
                 </p>
             </div>
             <form class="quiz-form">
@@ -123,5 +124,6 @@
             </form>
         </section>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
