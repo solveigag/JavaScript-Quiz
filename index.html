@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>notNotion - JS MasterClass Quiz Project</title>
+    <title>JS MasterClass Quiz Project</title>
     <link rel="icon" type="icon" href="./images/SG.jpg">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -12,8 +12,8 @@
     <main>
         <section class="quiz">
             <div class="heading">
-                <p class="title">notNotion</p>
-                <p class="subtitle">Daily Quiz to test your knowledge</p>
+                <p class="title">JavaScript Quiz</p>
+                <p class="subtitle">JavaScript MasterClass Project</p>
             </div>
             <div class="result hide">
                 <p></p>
@@ -24,98 +24,99 @@
             </div>
             <form class="quiz-form">
                 <div class="question">
-                    <p>Q1. Test Question</p>
+                    <p>Q1. Inside which HTML element do we put the JavaScript?</p>
                     <div class="option">
-                        <input type="radio" name="q1" value="A" checked>
-                        <label for="A">A</label>
+                        <input type="radio" name="q1" id="question1AnswerA" value="A" checked>
+                        <label for="question1AnswerA">&ltjs&gt</label>
                     </div>
                     <div class="option">
-                        <input type="radio" name="q1" value="B">
-                        <label for="B">B</label>
+                        <input type="radio" id="question1AnswerB" name="q1" value="B">
+                        <label for="question1AnswerB">&ltjavascripts&gt</label>
                     </div>
                     <div class="option">
-                        <input type="radio" name="q1" value="C">
-                        <label for="C">C</label>
+                        <input type="radio" id="question1AnswerC" name="q1" value="C">
+                        <label for="question1AnswerC">&ltbody&gt</label>
                     </div>
                     <div class="option">
-                        <input type="radio" name="q1" value="D">
-                        <label for="D">D</label>
-                    </div>
-                </div>
-                <div class="question">
-                    <p>Q2. Test Question</p>
-                    <div class="option">
-                        <input type="radio" name="q2" value="A" checked>
-                        <label for="A">A</label>
-                    </div>
-                    <div class="option">
-                        <input type="radio" name="q2" value="B">
-                        <label for="B">B</label>
-                    </div>
-                    <div class="option">
-                        <input type="radio" name="q2" value="C">
-                        <label for="C">C</label>
-                    </div>
-                    <div class="option">
-                        <input type="radio" name="q2" value="D">
-                        <label for="D">D</label>
+                        <input type="radio" id="question1AnswerD" name="q1" value="D">
+                        <label for="question1AnswerD">&ltscript&gt</label>
                     </div>
                 </div>
                 <div class="question">
-                    <p>Q3. Test Question</p>
+                    <p>Q2. What is the correct JavaScript syntax to change the content of the HTML element below?</p>
+                    <p><code>&ltp id="demo"&gt</code><span>This is a demonstration.</span><code>&lt/p&gt</code></p>
                     <div class="option">
-                        <input type="radio" name="q3" value="A" checked>
-                        <label for="A">A</label>
+                        <input type="radio" id="question2AnswerA" name="q2" value="A" checked>
+                        <label for="question2AnswerA"> document.getElementByName("p").innerHTML = "Hello World!";</label>
                     </div>
                     <div class="option">
-                        <input type="radio" name="q3" value="B">
-                        <label for="B">B</label>
+                        <input type="radio" id="question2AnswerB" name="q2" value="B">
+                        <label for="question2AnswerB"> document.getElementById("demo").innerHTML = "Hello World!";</label>
                     </div>
                     <div class="option">
-                        <input type="radio" name="q3" value="C">
-                        <label for="C">C</label>
+                        <input type="radio" id="question2AnswerC" name="q2" value="C">
+                        <label for="question2AnswerC"> #demo.innerHTML = "Hello World!";</label>
                     </div>
                     <div class="option">
-                        <input type="radio" name="q3" value="D">
-                        <label for="D">D</label>
-                    </div>
-                </div>
-                <div class="question">
-                    <p>Q4. Test Question</p>
-                    <div class="option">
-                        <input type="radio" name="q4" value="A" checked>
-                        <label for="A">A</label>
-                    </div>
-                    <div class="option">
-                        <input type="radio" name="q4" value="B">
-                        <label for="B">B</label>
-                    </div>
-                    <div class="option">
-                        <input type="radio" name="q4" value="C">
-                        <label for="C">C</label>
-                    </div>
-                    <div class="option">
-                        <input type="radio" name="q4" value="D">
-                        <label for="D">D</label>
+                        <input type="radio" id="question2AnswerD" name="q2" value="D">
+                        <label for="question2AnswerD"> document.getElement("p").innerHTML = "Hello World!";</label>
                     </div>
                 </div>
                 <div class="question">
-                    <p>Q5. Test Question</p>
+                    <p>Q3. Where is the correct place to insert a JavaScript?</p>
                     <div class="option">
-                        <input type="radio" name="q5" value="A" checked>
-                        <label for="A">A</label>
+                        <input type="radio" id="question3AnswerA" name="q3" value="A" checked>
+                        <label for="A"> The &lt;head&gt; section</label>
                     </div>
                     <div class="option">
-                        <input type="radio" name="q5" value="B">
-                        <label for="B">B</label>
+                        <input type="radio" id="question3AnswerB" name="q3" value="B">
+                        <label for="question3AnswerB"> The &lt;body&gt; section</label>
                     </div>
                     <div class="option">
-                        <input type="radio" name="q5" value="C">
-                        <label for="C">C</label>
+                        <input type="radio" id="question3AnswerC" name="q3" value="C">
+                        <label for="question3AnswerC"> Both the &lt;head&gt; section and the &lt;body&gt; section are correct</label>
                     </div>
                     <div class="option">
-                        <input type="radio" name="q5" value="D">
-                        <label for="D">D</label>
+                        <input type="radio" id="question3AnswerD" name="q3" value="D">
+                        <label for="question3AnswerD">&lt;footer&gt;</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>Q4. How do you write "Hello World" in an alert box?</p>
+                    <div class="option">
+                        <input type="radio" id="question4AnswerA" name="q4" value="A" checked>
+                        <label for="question4AnswerA">alertBox("Hello World");</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="question4AnswerB" name="q4" value="B">
+                        <label for="question4AnswerB">msgBox("Hello World");</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="question4AnswerC" name="q4" value="C">
+                        <label for="question4AnswerC">alert("Hello World");</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="question4AnswerD" name="q4" value="D">
+                        <label for="question4AnswerD">msg("Hello World");</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>Q5. How to write an IF statement in JavaScript?</p>
+                    <div class="option">
+                        <input type="radio" id="question5AnswerA" name="q5" value="A" checked>
+                        <label for="question5AnswerA">if i == 5 then</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="question5AnswerB" name="q5" value="B">
+                        <label for="question5AnswerB">if (i == 5)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="question5AnswerC" name="q5" value="C">
+                        <label for="question5AnswerC">if i = 5</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="question5AnswerD" name="q5" value="D">
+                        <label for="question5AnswerD">if i = 5 then</label>
                     </div>
                 </div>
                 <div class="submit">

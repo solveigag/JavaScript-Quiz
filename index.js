@@ -1,4 +1,4 @@
-const correctAnswer = ["A", "A", "A", "A", "A"];
+const correctAnswer = ["D", "B", "C", "C", "B"];
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 const questions = document.querySelectorAll(".question"); //returns a NodeList
