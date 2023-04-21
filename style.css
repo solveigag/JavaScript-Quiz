@@ -81,6 +81,8 @@
     border-radius: 5px;
     margin: 20px 0px;
     box-shadow: var(--box-shadow);
+    /* overflow-wrap: break-word;
+    hyphens: auto; */
 }
 
 .question > * {
@@ -89,8 +91,7 @@
 
 .option {
     margin-left: 10px;
-    overflow-wrap: break-word;
-    hyphens: auto;
+    word-break: break-all;
 }
 
 .correct {
