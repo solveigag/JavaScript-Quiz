@@ -89,6 +89,8 @@
 
 .option {
     margin-left: 10px;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .correct {
